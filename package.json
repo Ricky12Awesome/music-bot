@@ -1,0 +1,22 @@
+{
+  "name": "music-bot",
+  "module": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/main.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "3.4.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "discord-api-types": "^0.37.118",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "ffmpeg-static": "^5.2.0"
+  }
+}
